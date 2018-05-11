@@ -5,3 +5,12 @@ h2{font-family: 'Open Sans', sans-serif;}
 li {font-family: 'Open Sans', sans-serif;}
 
 html {background-color: lightblue}
+
+nav li{
+  background-color: blue;
+  padding: 10px;
+}
+
+header , nav , main{
+  color: white;
+}
