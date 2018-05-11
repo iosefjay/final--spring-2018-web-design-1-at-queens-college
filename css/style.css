@@ -4,13 +4,26 @@ h2{font-family: 'Open Sans', sans-serif;}
 
 li {font-family: 'Open Sans', sans-serif;}
 
-html {background-color: lightblue}
+html {background-color: lightblue;
+color: transparent;}
 
-nav li{
-  background-color: blue;
-  padding: 10px;
-}
+
 
 header , nav , main{
+  background-color: transparent;
   color: white;
+}
+
+nav li{
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+a:hover{
+font-weight: bold;
 }
