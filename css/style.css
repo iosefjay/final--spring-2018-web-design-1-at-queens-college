@@ -73,16 +73,9 @@ div{
    font-size: 50px;
 }
 
-#email{
-   margin-left: 200px;
-   position: fixed;
-   bottom: 240px;
-   right: 430px;
-}
-
 #contact-page{
    position: fixed;
-   bottom: 280px;
+   bottom: 300px;
    right: 340px;
    width: 380px;
    margin-left: 240px;
