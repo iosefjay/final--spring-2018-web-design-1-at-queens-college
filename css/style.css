@@ -13,6 +13,9 @@ color: lightgray}
 p , li , div , main {font-family: 'Open Sans', sans-serif;}
 
 p{
+   position: fixed;
+   bottom: 220px;
+   right: 270px;
    width: 700px;
    margin-left: 240px;
    font-size: 20px;
