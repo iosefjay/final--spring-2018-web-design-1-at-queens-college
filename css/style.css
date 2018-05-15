@@ -10,13 +10,21 @@ margin-left: 160px;
 margin-top: -70px;
 color: lightgray}
 
-p , li , div {font-family: 'Open Sans', sans-serif;}
+p , li , div , main {font-family: 'Open Sans', sans-serif;}
 
 p{
    width: 640px;
    margin-left: 240px;
    font-size: 20px;
 }
+   
+   ul{
+      list-style: none;
+   }
+   
+   #email{
+      margin-left: 200px;
+   }
    
 nav li{
   padding: 10px;
@@ -42,6 +50,7 @@ div{
    margin-left: 240px;
    font-weight: 700;
    font-size: 60px;
+   text-decoration: underline;
 }
 
 .arms{
