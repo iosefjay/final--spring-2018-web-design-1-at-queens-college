@@ -83,9 +83,13 @@ div{
 }
 
 .arms{
-   
+   position: fixed;
+   bottom: 0;
+   right: 300px;
 }
 
 .head{
-   
+   position: fixed;
+   right: 0;
+   bottom: 0;
 }
