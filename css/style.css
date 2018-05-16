@@ -84,6 +84,20 @@ div{
    text-decoration: underline;
 }
 
+.fa-envelope{
+   font-size: 60px;
+   position: fixed;
+   bottom: 250px;
+   right: 600px;
+}
+
+.fa-facebook-square{
+   font-size: 60px;
+   position: fixed;
+   bottom: 250px;
+   right: 670px;
+}
+
 .arms{
    position: fixed;
    bottom: 0;
