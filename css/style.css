@@ -116,6 +116,10 @@ div{
   right: 370px;
 }
 
+.mobile{
+  visibility: hidden;
+}
+
 @media (max-width: 320px) {
   h1{font-size: 30px; margin-left: 60px; }
   h2{font-size: 20px; margin-left: 60px; position: absolute; top: 115px;}
@@ -127,4 +131,5 @@ div{
   left: 50%;
   width: 60px;
   height: 70px; }
+  .mobile{visibility: visible; position: fixed; bottom: 0;}
 }
