@@ -1,3 +1,4 @@
+/* general css */
 h1{font-family: 'Roboto', sans-serif;
 font-size: 80px;
 font-weight: 200;
@@ -119,7 +120,9 @@ div{
 .mobile{
   visibility: hidden;
 }
+/* general css */
 
+/* mobile css */
 @media (max-width: 320px) {
   h1{font-size: 30px; margin-left: 60px; }
   h2{font-size: 20px; margin-left: 60px; position: absolute; top: 115px;}
@@ -133,4 +136,6 @@ div{
   height: 70px; }
   .mobile{visibility: visible; position: fixed; bottom: 0;}
   .fotorama{position: absolute; top: 86px; right: -80px;}
+  p{font-size: 12px; width: 200px; position: absolute; right: 0; top: 80px;}
 }
+/* mobile css */
