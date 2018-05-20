@@ -111,9 +111,7 @@ div{
 }
 
 .fotorama{
-  width: 300px;
-  height: 300px;
   position: fixed;
   bottom: 200px;
-  right: 430px;
+  right: 370px;
 }
