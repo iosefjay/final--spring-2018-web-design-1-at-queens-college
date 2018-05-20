@@ -115,3 +115,10 @@ div{
   bottom: 200px;
   right: 370px;
 }
+
+@media (max-width: 320px) {
+  h1{font-size: 30px; margin-left: 60px; }
+  h2{font-size: 20px; margin-left: 60px; position: absolute; top: 115px;}
+  .head{visibility: hidden;}
+  .arms{visibility: hidden;}
+}
