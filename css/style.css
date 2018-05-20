@@ -1,0 +1,123 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.container{
+	max-width: 960px; /* if the viewport is equall or larger tham 960px the page will be 960px. if the viewport is smaller than 960pxthe width of page will be 100%  */
+	/* background-color: white; */
+	margin-left: auto;
+	margin-right: auto;
+	overflow: auto;
+    height: 100%;
+
+}
+
+nav
+{
+    font-family: Garamond;	
+	font-size: 36px;
+	text-align:center;
+	text-shadow: grey 0.1em 0.1em 0.1em;
+	color: white;
+	text-decoration:none;
+	position:absolute;
+    left:390px;
+    top:-10px;
+}
+
+
+
+p
+{
+    font-family: Garamond;	
+	font-size: 30px;
+	text-align:center;
+	color: black;
+	text-shadow: grey 0.1em 0.1em 0.1em;
+	position:absolute;
+    left:600px;
+    top:70px;
+}
+
+ul
+{
+	list-style-type:none;
+
+}
+
+li
+{
+display:inline;
+padding: 40px;
+
+}
+
+h1
+{
+	position: absolute;
+	left: 110px;
+	top: 100px;
+	
+}
+
+
+
+h2
+{
+	position: absolute;
+	left: 110px;
+	top: 400px;
+}
+
+h3
+{
+	position: absolute;
+	left: 110px;
+	top: 700px;
+}
+
+h4
+{
+font-family: Garamond;	
+	font-size: 45px;
+	text-align:center;
+	text-shadow: grey 0.1em 0.1em 0.1em;
+	color: white;
+	text-decoration:none;
+	position:absolute;
+    left:450px;
+    top:250px;
+}
+
+
+a:link {
+	text-decoration:none;
+	color:white;
+}
+
+a:visited {
+	text-decoration:none;
+	color:white;
+}
+
+a:hover {
+	text-decoration:none;
+	color:gold;
+} 
+
+a:active {
+	text-decoration:none;
+	color:gold;
+} 
+
+
+
+
+
+
+
+
+
