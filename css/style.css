@@ -132,4 +132,5 @@ div{
   width: 60px;
   height: 70px; }
   .mobile{visibility: visible; position: fixed; bottom: 0;}
+  .fotorama{position: absolute; top: 86px; right: -80px;}
 }
