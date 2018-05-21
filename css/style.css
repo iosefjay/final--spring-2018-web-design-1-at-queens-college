@@ -1,0 +1,30 @@
+section.hero.is-fullheight.bg {
+    background-image:  linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(../img/background.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section.hero.is-fullheight.bg1 {
+    background-image:  linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(../img/background1.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+section.hero.conbg {
+    background-image:  linear-gradient(rgba(0,0,0,.60),rgba(0,0,0,.60)), url(../img/contactbg.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-head.opa{
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50));
+}
+
+.circle {
+    border-radius: 50%;
+    height: 175px;
+}
+
+.image.is-5by3{
+    padding-top: 0px;
+}
