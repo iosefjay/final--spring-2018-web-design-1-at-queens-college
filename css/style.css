@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100');
+@font-face{
+	font-family:'Open Sans', sans-serif;
+	src: url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+}
+
+*{
+	max-width: 1400px ;
+	
+	margin:0px;
+}
+body{
+	color: white;
+	font-family: Estrangelo Edessa;
+	background-image: url("../img/desktop.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative; 
+	height: 100vh;
+	
+
+}
+main p{
+	display: flex;
+	position: absolute;
+	font-family:'Josefin Slab', serif;
+	text-align: left;
+	right: 45.8%;
+	width:260px;
+	top: 1199px;
+	margin-bottom: 100PX;
+	/*border:3px blue solid;*/
+}
+
+.D{
+	position: absolute;
+	font-family: 'Josefin Slab', serif;
+	right: 13.81%;
+	top: 22%; 
+	font-size: 41pt;
+	font-weight: 100;
+	/*border:2px solid red;*/
+	 
+	
+} 
+.A{
+	position: absolute;
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
+	font-weight: 300;
+	right: 67%;
+	top: 119%;
+	font-size: 98px;
+	width: 10%;
+	
+
+}
+.T{
+	position: absolute;
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
+	right: 55.5%;
+	top: 155.9%;
+	font-size: 98px;
+	font-weight: 300;	
+}
+.ul{
+	position: absolute;
+	font-family:'Josefin Slab', serif;
+	text-align: center;
+	font-size: 29px; 
+	right:16%;
+	top: 141%;
+	width: 25%;
+	/*border: 2px solid pink; */
+
+}
+.IN{
+	position: absolute;
+	font-family:'Josefin Slab', serif;
+	text-align: center;
+	font-size: 49px; 
+	right:16.5%;
+	top: 122%;
+	width: 28%;
+	/*border:2px solid green;*/
+
+}
+.F{
+	position: relative;
+	font-family: High Tower Text;
+	text-align
+	padding-left: 466%;
+	top: 153%;
+	font-size: 57PX;
+}
+/*.....................................................
+image-style*/
+
+.fotorama{
+	position: repeat;
+	margin-right: 160%;
+	/*box-sizing: width:70px; height: 80px;*/
+	padding-right: 56px;
+	padding-left: 22.88%;
+	padding-top: 22%;
+	width: 56.1%;
+	height: 589px;
+	margin-bottom: 0px;
+}
+@media screen and (max-width: 960px){
+		body{
+	height: 90vh;
+	}	
+	main p{
+		right: 39.7%;
+		width:230px;
+		top: 810px;
+		margin-bottom: 100PX;
+		/*border: 2PX green solid;*/
+	}
+
+	.D{
+		right: 14.61%;
+		top: 17%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 67%;
+		top: 90%;
+		font-size: 75px;
+	}
+	.T{
+		right: 53.5%;
+		top: 116.9%;
+		font-size: 75px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:16%;
+		top: 135%;
+		width: 25%;
+		/*border: 2px solid pink; */
+	}
+	.IN{
+		font-size: 39px; 
+		right:14.98%;
+		top: 95%;
+		width: 28%;
+		/*border:2px solid green;*/
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+@media screen and (max-width: 640px){
+		body{
+	background-image: url("../img/desktop640.png");
+	height: 90vh;
+	}	
+	main p{
+		right: 45.5%;
+		width:230px;
+		top: 530px;
+		margin-bottom: 100PX;
+		/*border: 2PX yellow solid;*/
+	}
+
+	.D{
+		right: 23.5%;
+		top: 9%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 76%;
+		width: 15%;
+		font-size: 45px;
+	}
+	.T{
+		right: 50.5%;
+		top: 85.9%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:13.366666%;
+		top: 97%;
+		width: 35%;
+		/*border: 2px solid pink;
+*/
+	}
+	.IN{
+		font-size: 29px; 
+		right:13.98%;
+		top: 76%;
+		width: 28%;
+		/*border:2px solid green;*/
+
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+@media screen and (max-width: 320px){
+		body{ /*(mobile 320px landscape= 714px)*/
+	background-image: none;
+	background-color: #111314;
+	/*border:2px solid red;*/
+
+	}	
+	main p{
+		right: 11%;
+		width:260px;
+		top: 365px;
+		font-size: 16pt;
+		margin-bottom: 100PX;
+		/*border: 2PX purple solid;*/
+	}
+
+	.D{
+		right: 1.5%;
+		top: 1%; 
+		width: 92px;
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 79%;
+		width: 15%;
+		font-size: 45px;
+		color: #111314;
+	}
+	.T{
+		right: 50.5%;
+		top: 48%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:13%;
+		top: 400%;
+		width: 25%;
+		color: #111314;
+
+	}
+	.IN{
+		font-size: 19px; 
+		right:9.98%;
+		top: 204%;
+		width: 28%;
+		color: #111314;
+		/*border:2px solid green*/;
+		
+	}
+	.fotorama{
+		
+		margin-right: 0%;
+		padding-right: 0px;
+		padding-left: 10%;
+		padding-top: 11%;
+		width: 100%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}
+/*@media screen and (max-width: 640px){
+		body{
+	background-image: url("../img/desktop.png");
+	height: 90vh;
+	}	
+	main p{
+		right: 46.5%;
+		width:230px;
+		top: 560px;
+		margin-bottom: 100PX;
+		border: 2PX yellow solid;
+	}
+
+	.D{
+		right: 23.5%;
+		top: 9%; 
+		font-size: 28.5pt;
+	} 
+
+	.A{
+		right: 69%;
+		top: 66%;
+		width: 15%;
+		font-size: 45px;
+	}
+	.T{
+		right: 50.5%;
+		top: 75.9%;
+		font-size: 45px;	
+	}
+	.ul{
+		font-size: 20px; 
+		right:18%;
+		top: 87%;
+		width: 25%;
+		border: 2px solid pink;
+
+	}
+	.IN{
+		font-size: 29px; 
+		right:13.98%;
+		top: 68%;
+		width: 28%;
+		border:2px solid green;
+
+	}
+	.fotorama{
+		
+		margin-right: 160%;
+		padding-right: 56px;
+		padding-left: 16.9%;
+		padding-top: 18%;
+		width: 66.1%;
+		height: 589px;
+		margin-bottom: 0px;
+}
+}*/
