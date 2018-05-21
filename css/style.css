@@ -1,0 +1,150 @@
+/* general css */
+h1{font-family: 'Roboto', sans-serif;
+font-size: 80px;
+font-weight: 200;
+margin-left: 160px;}
+
+h2{font-family: 'Open Sans', sans-serif;
+font-size: 50px;
+font-weight:300;
+margin-left: 160px;
+margin-top: -70px;
+color: lightgray}
+
+p , li , div , main {font-family: 'Open Sans', sans-serif;}
+
+p{
+   position: fixed;
+   bottom: 220px;
+   right: 270px;
+   width: 670px;
+   margin-left: 240px;
+   font-size: 25px;
+}
+
+   ul {
+      list-style: none;
+   }
+
+nav ul {
+   width: 160px;
+   margin-bottom: 16px;
+}
+
+nav li {
+   z-index: 0;
+   position: relative;
+   font-size: 24px;
+  padding: 10px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  background-color: white;
+}
+
+nav li::after {
+   z-index: -1;
+   position: absolute;
+   content: '';
+   top: 10px;
+   left: 73%;
+   width: 80px;
+   height: 80px;
+   transform: skew(-40deg);
+   background-color: lightblue;
+
+}
+
+a{
+   display: block;
+   background-color: lightblue;
+   text-decoration: none;
+}
+
+a:hover{
+font-weight: 700;
+}
+
+a:visited{
+   color: white;
+}
+
+div{
+   font-weight: 400;
+   font-size: 50px;
+}
+
+#contact-page{
+   position: fixed;
+   bottom: 300px;
+   right: 340px;
+   width: 380px;
+   margin-left: 240px;
+   font-weight: 700;
+   font-size: 60px;
+   text-decoration: underline;
+}
+
+.fa-envelope{
+   font-size: 60px;
+   position: fixed;
+   bottom: 250px;
+   right: 600px;
+}
+
+.fa-facebook-square{
+   font-size: 60px;
+   position: fixed;
+   bottom: 250px;
+   right: 670px;
+}
+
+.arms{
+   position: fixed;
+   bottom: 0;
+   right: 300px;
+}
+
+.head{
+   position: fixed;
+   right: 0;
+   bottom: 0;
+}
+
+.fotorama{
+  position: fixed;
+  bottom: 200px;
+  right: 370px;
+}
+
+.mobile{
+  visibility: hidden;
+}
+/* general css */
+
+/* tablet css */
+@media (max-width: 1024px) {
+  p{font-size: 20px; width: 450px;}
+}
+/* tablet css */
+
+/* mobile css */
+@media (max-width: 320px) {
+  h1{font-size: 30px; margin-left: 60px; }
+  h2{font-size: 20px; margin-left: 60px; position: absolute; top: 115px;}
+  .head{visibility: hidden;}
+  .arms{visibility: hidden;}
+  nav li{width: 60px; height: 60px; margin-left: -60px; font-size: 15px;}
+  nav li::after{position: absolute;
+  top: 10px;
+  left: 50%;
+  width: 60px;
+  height: 70px; }
+  .mobile{visibility: visible; position: fixed; bottom: 0;}
+  .fotorama{position: absolute; top: 86px; right: -80px;}
+  p{font-size: 12px; width: 200px; position: absolute; right: 0; top: 80px;}
+  #contact-page{font-size: 30px; position: absolute; left: -100px;}
+  .fa-envelope{font-size: 30px; position: absolute; left: 150px; top: 180px;}
+  .fa-facebook-square{font-size: 30px; position: absolute; left: 190px; top: 180px;}
+}
+/* mobile css */
