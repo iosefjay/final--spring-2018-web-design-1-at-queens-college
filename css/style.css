@@ -1,0 +1,89 @@
+   @font-face {
+    font-family: 'the blacklist';
+    font-style: normal;
+    src: local("the blacklist");
+   }
+
+   h1 {
+    font-family: 'the blacklist';
+    font-size: 36px;
+    
+   }
+   
+   a {
+     text-decoration: none;
+      color: black;
+   }
+   
+   body {
+      font-family: arial, sans-serif;
+   }
+   
+   img {
+      max-width: 100%;
+   }
+   
+   .home img {
+      max-width: 100%;
+      padding: 10px;
+   }
+
+
+   .navigation {
+      position: fixed;
+      left:10px;
+      top:40px;
+      width: 204px;
+      height: auto;
+   }
+   
+   @media (min-width: 1024px) {
+   #container {
+     width: 748px;
+     height: auto;
+     margin: auto;
+     float: left;
+   }}
+
+   @media (min-width: 1024px) {
+   .home {
+      position: relative;
+      margin-left: 300px;
+      margin-top: 60px;
+      padding-bottom: 18px;
+      width: 748px;
+      min-width: 200px;
+      height: auto;
+      column-count: 2;
+      column-width: 290px;
+      column-gap: 50px;   
+   }}
+   
+   @media (min-width: 1024px) {
+   .illustration {
+      position: relative;
+      margin-left: 554px;
+      margin-top: 60px;
+      min-width: 200px;
+      height: auto;
+      width: 612px;
+      height: auto;
+      margin: auto;
+
+   }}
+   
+   @media (min-width: 1024px) {
+   .me {
+      position: relative;
+      top:60px;
+      left:550px;
+      height: auto;
+      width: 400px;
+   }
+
+   .bio {
+      text-align: center;
+      position:relative;
+      top:60px;   
+   }
+
