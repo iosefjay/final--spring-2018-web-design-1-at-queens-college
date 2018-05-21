@@ -1,0 +1,292 @@
+.all-page {
+   width               : 100%;
+}
+.all-page .main {
+   top                 : 133px;
+   width               : 960px;
+   position            : absolute;
+   left                : 32px;
+}
+h1 {
+   font-size           : 52.0px;
+   font-style          : normal;
+   height              : 30px;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+}
+h2 {
+   font-size           : 25.0px;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+   text-align          : center;
+   margin-top          : 180px;
+}
+#description {
+   top                 : 53px;
+   width               : 960px;
+   position            : absolute;
+   font-family         : "IBMPlexSans-Light", Helvetica, Arial, serif;
+   font-size           : 19.0px;
+   color               : rgba(0, 0, 0, 1.0);
+   text-align          : justify;
+   line-height         : 25.0px;
+}
+#description img {
+    float: right;
+    margin-left: 60px;
+}
+a {
+  text-decoration      : none;
+  color                : white;
+}
+
+a:hover {
+   color               : yellow;
+   background-color    : black;
+}
+
+a:after {
+   color               : yellow;
+   background-color    : black;
+}
+
+a:active {
+   color               : yellow;
+}
+
+.all-page .header {
+   width               : 960px;
+   position            : absolute;
+   left                : 32px;
+}
+.all-page .header .nav {
+   height              : 134px;
+   width               : 960px;
+   position            : fixed;
+}
+#myname {
+   top                 : 66px;
+   height              : auto;
+   width               : 208px;
+   position            : fixed;
+   margin-left         : 139px;;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+   font-size           : 30.0px;
+   text-align          : center;
+}
+#bio {
+   top                 : 65px;
+   height              : auto;
+   width               : 146px;
+   position            : fixed;
+   margin-left         : 479px;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+   font-size           : 30.0px;
+   text-align          : center;
+}
+#work {
+   top                 : 65px;
+   height              : auto;
+   width               : 138px;
+   position            : fixed;
+   margin-left         : 645px;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+   font-size           : 30.0px;
+   text-align          : center;
+}
+#contacts {
+   top                 : 65px;
+   height              : auto;
+   width               : 138px;
+   position            : fixed;
+   margin-left         : 803px;
+   font-family         : "AvenirNextCondensed-Bold", Helvetica, Arial, serif;
+   font-size           : 30.0px;
+   text-align          : center;
+}
+#websitelogo {
+   top                 : 20px;
+   height              : 97px;
+   width               : 91px;
+   position            : fixed;
+   margin-left         : 32px;
+}
+
+.hold {
+   margin-top: 100px;
+   margin-left: 32px;
+   margin-right: 32px;
+}
+
+.hold #panda1 {
+   top: 0;
+   margin-left: 150px;
+   height: 304px;
+   width: 237px;
+}
+
+.hold #earth {
+   top: 0;
+   margin-left: 37px;
+   height: 185px;
+   width: 324px;
+}
+
+.hold #panda2 {
+   top: 0;
+   margin-left: 35px;
+   height: 304px;
+   width: 237px;
+}
+
+.hold #pac {
+   margin-top: 100px;
+   margin-left: 150px;
+   height: 304px;
+   width: 237px;
+}
+
+.hold #penguin {
+   top: 0;
+   margin-left: 80px;
+   height: 304px;
+   width: 237px;
+}
+
+.hold #symmetry {
+   top: 0;
+   margin-left: 80px;
+   height: 304px;
+   width: 237px;
+}
+
+.hold a:hover {
+   background-color: #fff;
+}
+
+#bg {
+   position            : fixed;
+   background-color    : black;
+   height              : 142px;
+   top                 : 0;
+   right               : 32px;
+   left                : 32px;
+}
+
+.slides {
+   margin-left: 130px;
+}
+
+#contact-info {
+   background-color: rgba(240, 240, 240, 1.0);
+   position: absolute;
+   top: 300px;
+   margin-left: 60px;
+   text-align: left;
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  .slides img {
+        display: flex;
+        height: 550px;
+        width: 550px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  .slides img {
+   display: flex;
+   height: 350px;
+   width: 350px;
+}
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #websitelogo {
+   width: 91px;
+   margin-left: 90px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  #websitelogo {
+   width: 91px;
+   margin-left: 30px;
+}
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #myname {
+   font-size: 25.0px;
+   width: 75%;
+   margin-left: 0px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  #myname {
+   display: none;
+   font-size: 20.0px;
+   width: 50%;
+   margin-left: 0px;
+}
+}
+
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #bio {
+   font-size: 25.0px;
+   width: 75%;
+   margin-left: 135px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  #bio {
+   font-size: 18.0px;
+   width: 45%;
+   margin-left: 80px;
+}
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #work {
+   font-size: 25.0px;
+   width: 75%;
+   margin-left: 225px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  #work {
+   font-size: 18.0px;
+   width: 45%;
+   margin-left: 150px;
+}
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #contacts {
+   font-size: 25.0px;
+   width: 75%;
+   margin-left: 310px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+  #contacts {
+   font-size: 18.0px;
+   width: 45%;
+   margin-left: 213px;
+}
+}
+
+@media (min-width: 729px) and (max-width: 959px) {
+  #description {
+    width: 75%;
+}
+}
+
+@media (min-width: 321px) and (max-width: 728px) {
+  #description {
+    width: 46%;
+}
+}
